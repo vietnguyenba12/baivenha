@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+
+.container {
+    width: 980px;
+}
+
+.container__header {
+    border-bottom: 1px solid #00acc1;
+    margin-bottom: 20px;
+}
+
+.container__header-h3 {
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    background-color: #00acc1;
+    display: inline-block;
+}
+
+.container__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__list-item {
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    background-image: url(https://stc-laban.zdn.vn/v5/images/ic_cate_small.png);
+    background-repeat: no-repeat;
+}
+
+.container__list-item a {
+    color: black;
+    padding: 5px 0 5px 30px;
+    text-decoration: none;
+}
+
+.container__list-item:nth-child(3) a {
+    color: #5eac01;
+}
+
+.container__list-item a:hover {
+    color: #00acc1;
+}
+
+.container__list-item:nth-child(3) a:hover {
+    color: #417504;
+}
+
+.container__list-item:nth-child(1) {
+    background-image: url(https://2-stc-laban.zdn.vn/thumbarticle/1437968024.jpg);
+    background-position: 0;
+}
+
+.container__list-item:nth-child(2) {
+    background-position: 0 -2305px;
+}
+
+.container__list-item:nth-child(3) {
+    background-position: 0 -260px;
+}
+
+.container__list-item:nth-child(4) {
+    background-image: url(https://stc-laban.zdn.vn/v5/images/bongda.png);
+    background-position: 0;
+}
+
+.container__list-item:nth-child(5) {
+    background-position: 0px -2225px;
+}
+
+.container__list-item:nth-child(6) {
+    background-position: 0 -9999px;
+}
+
+.container__list-item:nth-child(7) {
+    background-position: 0px -2137px;
+}
+
+.container__list-item:nth-child(8) {
+    background-position: 0px -2262px;
+}
+
+.container__list-item:nth-child(9) {
+    background-position: 0px -2054px;
+}
+
+.container__list-item:nth-child(10) {
+    background-position: 0px -2100px;
+}
+
+.container__list-item:nth-child(11) {
+    background-position: 0px -1603px;
+}
+
+.container__list-item:nth-child(12) {
+    background-position: 0px -1554px;
+}
+
+.container__list-item:nth-child(13) {
+    background-position: 0px -1241px;
+}
+
+.container__list-item:nth-child(14) {
+    background-position: 0px;
+	background-image:url(https://stc-laban.zdn.vn/v5/images/icon_atm.png);
+}
+
+.container__list-item:nth-child(15) {
+    background-position: 0px -777px;
+}
+
+.container__list-item:nth-child(16) {
+    background-position: 0px -777px;
+}
+
+.container__list-item:nth-child(17) {
+    background-position: 0px -1139px;
+}
+
+.container__list-item:nth-child(18) {
+    background-position: 0px ;
+	background-image: url(https://2-stc-laban.zdn.vn/thumbarticle/1436416230.jpg);
+}
+
+.container__list-item:nth-child(19) {
+    background-position: 0px ;
+	background-image: url(https://4-stc-laban.zdn.vn/thumbarticle/1442202703.jpg);  
+}
